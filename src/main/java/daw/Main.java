@@ -14,7 +14,10 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        Tarea5CKhalid p1 = new Tarea5CKhalid();
+        Tarea5CKhalid p2 = new Tarea5CKhalid();
+        
     }
     
 }
