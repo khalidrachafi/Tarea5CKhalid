@@ -13,6 +13,14 @@ public class Tarea5CKhalid {
 
      public String nombre;
      public double num;
+
+    public Tarea5CKhalid(String nombre, double num) {
+        this.nombre = nombre;
+        this.num = num;
+    }
+
+    public Tarea5CKhalid() {
+    }
      
      
      
