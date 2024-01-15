@@ -37,6 +37,16 @@ public class Tarea5CKhalid {
     public void setNum(double num) {
         this.num = num;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Tarea5CKhalid{");
+        sb.append("nombre=").append(nombre);
+        sb.append(", num=").append(num);
+        sb.append('}');
+        return sb.toString();
+    }
      
      
      
