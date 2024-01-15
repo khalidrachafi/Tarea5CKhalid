@@ -11,8 +11,8 @@ package daw;
 public class Tarea5CKhalid {
 
 
-     public String nombre;
-     public double num;
+     private String nombre;
+     private double num;
 
     public Tarea5CKhalid(String nombre, double num) {
         this.nombre = nombre;
@@ -20,6 +20,22 @@ public class Tarea5CKhalid {
     }
 
     public Tarea5CKhalid() {
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getNum() {
+        return num;
+    }
+
+    public void setNum(double num) {
+        this.num = num;
     }
      
      
