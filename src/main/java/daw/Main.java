@@ -18,6 +18,11 @@ public class Main {
         Tarea5CKhalid p1 = new Tarea5CKhalid();
         Tarea5CKhalid p2 = new Tarea5CKhalid();
         
+        
+        System.out.println(p1.toString());
+        
+        System.out.println(p2.toString());
+        
     }
     
 }
